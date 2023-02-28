@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- script가 body에 존재하는 것은 유지보수를 힘들게 하므로
+        script를 head에 구현하여 이벤트 기능을 넣어 사용 -->
+    <script>
+        window.onload = function () {
+            document.querySelector('h1').style.backgroundColor = 'red';
+            document.querySelector('h2').style.color = 'red';
+        }
+    </script>
+</head>
+<body>
+    <h1>Process - 1</h1>
+    <h2>Process - 2</h2>
+</body>
+</html>

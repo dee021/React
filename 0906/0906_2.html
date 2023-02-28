@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Document</title>
+<!--     <scirpt> 
+        document.qeurySelector('h1').style.backgroundColor = 'red';
+        document.querySelector('h2').style.color = 'red';
+    </scirpt> -->
+    <!-- h1, h2에 해당하는 내용이 만들어지지 않았는데
+         head의 script가 먼저 실행되므로 error -->
+</head>
+<body>
+    <h1>Process - 1</h1>
+    <h2>Process - 2</h2>
+    <script>
+        document.querySelector('h1').style.backgroundColor='red';
+        document.querySelector('h2').style.color = 'red';
+    </script>
+</body>
+</html>
